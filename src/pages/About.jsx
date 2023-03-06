@@ -3,11 +3,11 @@ import Navbar from '../components/Navbar'
 
 const About = () => {
   return (
-    <div className='bg-[#3C464F] h-[100vh]'>
+    <div className='about bg-[#3C464F] h-[100vh]'>
       <Navbar/>
       <div>
         <div className='flex justify-center flex-col items-center mt-[3rem]'>
-          <iframe src="https://gifer.com/embed/7veW" width="480" height="259.000" ></iframe>
+          <iframe src="https://gifer.com/embed/7veW" width="480" height="259.000" > </iframe>
           <div className='text-center w-[25rem]'>
             <p className='tex
             t-2xl text-gray-400 mt-5 font-semibold'>My name is İbrahim, 32 years old React developer from Turkey.</p>
