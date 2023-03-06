@@ -5,7 +5,7 @@ import Form from './Form'
 const Header = () => {
   return (
     <div>
-    <p className='text-3xl text-gray-400 text-center mt-5'>Food App</p>
+    <p className='text-3xl text-black text-center mt-5'>Food App</p>
     <div>
       <Form/>
       {/* <RecipeCard/> */}
