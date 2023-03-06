@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bgcontainer{
+    /* background-image:url("https://png.pngtree.com/background/20210711/original/pngtree-summer-atmosphere-restaurant-supermarket-vegetable-psd-layered-promotion-background-picture-image_1098004.jpg"); */
+    background: linear-gradient(
+      to right,
+      rgba(60, 70, 79, 0.9),
+      rgba(60,70,79, 0.3)
+    ),
+    url(https://png.pngtree.com/background/20210711/original/pngtree-summer-atmosphere-restaurant-supermarket-vegetable-psd-layered-promotion-background-picture-image_1098004.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+    
+}   
+
